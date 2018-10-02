@@ -7,3 +7,10 @@ This repository contains a very simple inoic app, created using the following tu
 
 # Requirements
 [npm](https://www.npmjs.com/get-npm) and [ionic 4](https://ionicframework.com/getting-started#cli).
+
+Before launching the application, you must use a valid API key for news.org. The one provided with this application is invalid.
+In order to do that, go to: src/environments/environment.ts
+Then edit the following line using your valid API key:
+```
+apiKey: '286bb74ee5f84329b63f9eaf9c81fb85'
+```
