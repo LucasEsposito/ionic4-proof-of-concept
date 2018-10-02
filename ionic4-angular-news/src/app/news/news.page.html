@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>News</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let article of data?.articles" (click)="onGoToNewsSinglePage(article)">
+    <ion-card-content>
+      <ion-card-title>{{article.title}}</ion-card-title>
+      <ion-badge item-end>{{article.source.name}}</ion-badge>&nbsp;
+      <ion-badge color="secondary" item-end>{{article.author}}</ion-badge>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-infinite-scroll (ionInfinite)="loadMoreNews($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubble" loadingText="Loading news..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

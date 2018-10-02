@@ -1,1 +1,9 @@
-# ionic4-test
+# Ionic 4 Practice
+This repository contains a very simple inoic app, created using the following tutorials and documentation:
+- [Angular 6 Tutorial](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ) (first and second videos)
+- [Creating News Application With Ionic 4 and Angular](https://www.youtube.com/watch?v=NJ9C7iY9350)
+- [Adding Infinite Scroll in Ionic 4 and Angular Application](https://www.youtube.com/watch?v=Y3kN-XX32wU)
+- [Ionic Documentation: Components](https://ionicframework.com/docs/components/#overview)
+
+# Requirements
+[npm](https://www.npmjs.com/get-npm) and [ionic 4](https://ionicframework.com/getting-started#cli).
